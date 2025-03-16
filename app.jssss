@@ -1,0 +1,16 @@
+function count(arr, target) {
+    let res = 0;
+    for (let i = 0; i < arr.length; i++) {
+      
+        // If the current element is equal to 
+        // target, increment the result
+        if (arr[i] === target)
+            res++;
+    }
+
+    return res;
+}
+
+const arr = [3, 4, 5, 3, 1, 3, 3];
+const target = 3;
+console.log(count(arr, target));

@@ -1,0 +1,33 @@
+.home:hover{
+    background-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .home:hover{
+        background-color: red;
+    }
+}
+@media only screen and  (min-width: 450px) {
+    .details:hover{
+        font-size: 30px;
+        transition: 2s;
+    }
+  
+}
+.about{
+    color: greenyellow;
+}
+
+@media only screen and  (min-width: 450px) {
+    .about:hover{
+        color: antiquewhite;
+      
+    }
+
+
+    @media only screen and  (max-width: 750px) {
+        .about:hover{
+            color: antiquewhite;
+          
+        }
+    
